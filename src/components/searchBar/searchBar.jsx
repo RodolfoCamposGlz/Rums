@@ -10,7 +10,7 @@ const SearchBar = () => {
   return (
         <div className="container-input">
         <input id="search-input" type="text" placeholder="Busca tu universidad o empresa" name="search"/>
-          <Link className="search-button" to ="/rumi/departamento">
+          <Link className="search-button" to ="/maps">
           <i className="icono fa-align-center far fa-paper-plane fa-lg">
           </i>
           </Link>

@@ -12,7 +12,7 @@ class Ciudad extends Component{
         return(
 
                 <div className="items-city">
-                    <Link style={{backgroundImage: `url(${this.props.url})`}} className="item-city text-images bg-images" to={`/rumi/ciudad/${this.props.titulo}`}>
+                    <Link style={{backgroundImage: `url(${this.props.url})`}} className="item-city text-images bg-images" to='/maps'>
                     {this.props.titulo}
                     </Link>
 

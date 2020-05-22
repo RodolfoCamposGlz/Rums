@@ -20,7 +20,7 @@ class InfoSection extends Component {
                         <h2 className="h2-sections">No desperdicies tu tiempo.</h2>
                         <p className="font-text">
 
-                         En Rumi te ayudamos a ahorrarte tiempo,
+                         En Rums te ayudamos a ahorrarte tiempo,
                                 buscando tu departamento cerca de tu universidad
                                o trabajo en mas de 6 sitios web.
                         </p>
