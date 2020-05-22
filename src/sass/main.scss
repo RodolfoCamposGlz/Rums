@@ -1,0 +1,26 @@
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+@import 'components/buttons';
+@import 'components/searchBar';
+@import 'components/infoHowWorks';
+@import 'components/cities';
+@import 'components/universities.scss';
+@import 'components/infoSection.scss';
+@import 'components/footer';
+@import 'components/googleMaps';
+@import 'components/filtersPrice';
+@import 'components/filters';
+@import 'components/filtersTypeRoom';
+@import 'components/filtersAmenities';
+
+@import 'layout/grid';
+@import 'layout/header';
+
+@import 'pages/home';

@@ -1,0 +1,40 @@
+/* .ListItems{
+    padding: 20px;
+} */
+
+
+a.item-uni{
+	color: #fff ;
+	background-color: transparent;
+}
+a.item-uni:hover{
+	color: #bcbdbd ;
+	text-decoration-line: none ;
+}
+
+a.item-uni:not([href]):not([tabindex]) {
+	color: rgba(199, 186, 186, 0.904)  ;
+	text-decoration: none ;
+}
+a.item-uni:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    color: #bcbdbd ;
+    text-decoration: none ;
+} 
+
+
+.items-uni .item-uni{
+	min-width:180px;
+	max-width: 20%;
+	height: 200px;
+	background: #ddd;
+	margin: 10px;
+	border-radius: 5px;
+	flex: 0 0 20%;
+	
+}
+.items-uni .bg-images{
+	background-color: rgba(17, 5, 56, 0.356);
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-position: center;
+	}

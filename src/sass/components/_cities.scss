@@ -1,0 +1,48 @@
+/* 
+.ListItems{
+    padding: 20px;
+
+} */
+
+
+
+a.item-city{
+	color: $color-white;
+	background-color: transparent;
+}
+a.item-city:hover{
+	color: $item-hover ;
+	text-decoration-line: none ;
+}
+
+a.item-city:not([href]):not([tabindex]) {
+	color: rgba(199, 186, 186, 0.904)  ;
+	text-decoration: none ;
+}
+a.item-city:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    color: $item-hover ;
+    text-decoration: none ;
+} 
+
+
+/*BACKGROUND FOR CITY IMAGES*/
+.items-city .item-city.bg-images{
+    background-color: rgba(17, 5, 56, 0.356);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.items-city .item-city{
+	min-width:350px;
+	max-width: 20%;
+	height: 200px;
+	background: #ddd;
+	margin: 12px;
+	border-radius: 5px ;
+    flex: 0 0 20%;
+}
+
+
+

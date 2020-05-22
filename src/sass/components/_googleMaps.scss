@@ -1,0 +1,30 @@
+.container-map {
+    position: fixed;
+     top: 70px;
+     right: 0;
+     width: 65%;
+     height: 100%;
+ }
+ /*Maps Page*/
+ .bg-maps{
+    background-color: #358bed;
+    justify-content: center;
+}
+
+.input-maps{
+    width: 70%;
+    padding: 10px;
+}
+
+.logo-maps{
+    width:  100px;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    #img-logo {display: none}
+}
+@media screen and (max-width: 500px) {
+    .input-maps {width:100%}
+}
